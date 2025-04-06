@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+}
+.services ul li::before {
+  content: "";
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fb-heart.gif);
+  background-size: contain;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 0.1rem;
+  margin-right: 0.2rem;
+}
+
+.services li {
+  font-size: 20px;
+}
+
+.services span {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+}

@@ -1,0 +1,161 @@
+<div class="container justify-content-between align-items-center category-dropdown d-none d-md-flex">
+  <div class="dropdown-center">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Keyboard Kit
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=KeyboardKit&size=Full Size">Full Size</a></li>
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=KeyboardKit&size=TKL">TKL</a></li>
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=KeyboardKit&size=75%">75% or less</a></li>
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=KeyboardKit&size=Alice">Alice</a></li>
+    </ul>
+  </div>
+  <div class="dropdown-center">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Keycap
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=Keycap&profile=Cherry">Profile Cherry</a></li>
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=Keycap&profile=MDA">Profile MDA</a></li>
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=Keycap&profile=SA">Profile SA</a></li>
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=Keycap&profile=Artisan">Artisan</a></li> 
+    </ul>
+  </div>
+  <div class="dropdown-center">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Switch
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=Switch&type=Linear">Switch Linear</a></li>
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=Switch&type=Tactile">Switch Tactile</a></li>
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=Switch&type=Clicky">Switch Clicky</a></li>
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=Switch&type=Silent">Switch Silent</a></li>
+    </ul>
+  </div>
+  <div class="dropdown-center">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      PreBuild
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=Prebuild&size=Full Size">Full Size</a></li>
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=Prebuild&size=TKL">TKL</a></li>
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=Prebuild&size=75%">75% or less</a></li>
+      <li><a class="dropdown-item" href="?page=display_by_category.php&ProductType=Prebuild&size=Alice">Alice</a></li>
+    </ul>
+  </div>
+  <!-- <div class="dropdown-center">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Modding
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Kit modding</a></li>
+      <li><a class="dropdown-item" href="#">Switch modding</a></li>
+      <li><a class="dropdown-item" href="#">Stabilizer modding</a></li>
+    </ul>
+  </div> -->
+</div>
+
+<section>
+  <div class="container pt-3">
+    <button class="btn d-md-none" type="button" style="border: 2px solid black; border-top: none; border-left: none; border-right: none; border-radius: 0%; padding-left: 15px;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+      Category
+      <i class="bi bi-chevron-compact-right"></i>
+    </button>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Category</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+                Keyboard Kit
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body d-block m-0 p-0">
+                <a href="?page=display_by_category.php&ProductType=KeyboardKit&size=Full Size"><button class="btn">Full Size</button></a> 
+              </div>
+              <div class="accordion-body d-block m-0 p-0">
+                <a href="?page=display_by_category.php&ProductType=KeyboardKit&size=TKL"><button class="btn">TKL</button></a>
+              </div>
+              <div class="accordion-body d-block m-0 p-0">
+                <a href="?page=display_by_category.php&ProductType=KeyboardKit&size=75%"><button class="btn">75% or less</button></a>
+              </div>
+              <div class="accordion-body d-block m-0 p-0">
+                <a href="?page=display_by_category.php&ProductType=KeyboardKit&size=Alice"><button class="btn">Alice</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo">
+                Keycap
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body d-block m-0 p-0">
+                <a href="?page=display_by_category.php&ProductType=Keycap&profile=Cherry"><button class="btn">Profile Cherry</button> </a>
+              </div>
+              <div class="accordion-body d-block m-0 p-0">
+                <a href="?page=display_by_category.php&ProductType=Keycap&profile=MDA"><button class="btn">Profile MDA</button></a>
+              </div>
+              <div class="accordion-body d-block m-0 p-0">
+                <a href="?page=display_by_category.php&ProductType=Keycap&profile=SA"><button class="btn">Profile SA</button></a>
+              </div>
+              <div class="accordion-body d-block m-0 p-0">
+                <a href="?page=display_by_category.php&ProductType=Keycap&profile=Artisan"><button class="btn">Artisan</button></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">
+                Switch
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body d-block m-0 p-0">
+                <a href="?page=display_by_category.php&ProductType=Switch&type=Linear"><button class="btn">Switch Linear</button></a>
+              </div>
+              <div class="accordion-body d-block m-0 p-0">
+                <a href="?page=display_by_category.php&ProductType=Switch&type=Tactile"><button class="btn">Switch Tactile</button></a>
+              </div>
+              <div class="accordion-body d-block m-0 p-0">
+                <a href="?page=display_by_category.php&ProductType=Switch&type=Clicky"><button class="btn">Switch Clicky</button></a>
+              </div>
+              <div class="accordion-body d-block m-0 p-0">
+                <a href="?page=display_by_category.php&ProductType=Switch&type=Artisan"><button class="btn">Switch Silent</button></a>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour">
+                  PreBuild
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body d-block m-0 p-0">
+                  <a href="?page=display_by_category.php&ProductType=Prebuild&size=Full Size"><button class="btn">Full Size</button></a>
+                </div>
+                <div class="accordion-body d-block m-0 p-0">
+                  <a href="?page=display_by_category.php&ProductType=Prebuild&size=TKL"><button class="btn">TKL</button></a>
+                </div>
+                <div class="accordion-body d-block m-0 p-0">
+                  <a href="?page=display_by_category.php&ProductType=Prebuild&size=75%"><button class="btn">75% or less</button></a>
+                </div>
+                <div class="accordion-body d-block m-0 p-0">
+                  <a href="?page=display_by_category.php&ProductType=Prebuild&size=Alice"><button class="btn">Alice</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
